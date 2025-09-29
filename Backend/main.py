@@ -7,7 +7,7 @@ from langchain_google_genai.chat_models import ChatGoogleGenerativeAI
 
 
 llm = ChatGoogleGenerativeAI(
-    google_api_key = "AIzaSyD2RuJtzWK-ReecEHRZHFaYAbcuPmoCSiQ",
+    google_api_key = "GOOGLE_API_KEY",
     temperature = 0.7,
     model = "gemini-2.5-flash-lite",
     max_tokens = 600
